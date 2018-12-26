@@ -1,3 +1,88 @@
 #header-img{
   width: 65px;
 }
+
+.navbar, #products{
+  background: #333a44;
+  font-size: 19px;
+  font-weight: 500;   
+}
+.nav-link, footer, footer a, #products{
+  color: #b49580;
+}
+
+#video{
+  margin-top: 81px;
+  height: calc(100vh - 81px)
+}
+
+h1, h2, h3{
+  font-family: monospace;
+
+}
+
+h1{
+  font-size: 40px;
+  line-height: 200px;  
+}
+
+
+#video, .product-pics, #pricing{
+  background: #fbfafb;
+  display: flex;
+}
+
+.product-pics img{
+  max-height: 400px;
+}
+
+#pricing{
+
+}
+
+
+a:hover{
+  color: #706e71;
+}
+
+form{  
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#email, #submit{
+  border-radius: 5px;
+  height: 40px;
+  border: none;
+}
+
+#email{
+  width: 300px;
+  padding-left: 10px;
+
+}
+#submit{
+  background: #b49580;
+  color: #333a44;
+  width: 100px;
+}
+
+footer{
+  background: #333a44;
+}
+
+@media screen and (max-width: 650px){
+  #products h1{
+    display: none;
+  }
+  #products h3{
+    display: block;
+    line-height: 100px;
+  }
+}
+
+@media screen and (min-width: 651px){
+  #products h3{
+    display: none;
+  }
+}
